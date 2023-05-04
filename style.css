@@ -51,7 +51,7 @@ cursor: pointer;
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 586px;
+    min-height: 586px;
 
 }
 
@@ -282,7 +282,7 @@ line-height: 125%;
 }
 
 .container_header-h1 {
-/*     width: 342px; */
+    width: 342px;
     height: 50px;
 
     /* Typography/Heading/Bold 1 */

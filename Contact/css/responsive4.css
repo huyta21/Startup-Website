@@ -5,6 +5,28 @@
     
 }
 
+/* Taplet */
+
+@media(min-width:740px) and (max-width:1023px) {
+    .grid {
+        padding: 0 20px;
+    }
+
+    .container__contact {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .container__contact-map--img,
+    .container__contact-map,
+    .container__contact-item{
+        width: 100%;
+    }
+   
+}
+
+
+
 /* mobele */
 
 @media(max-width:739px) {
@@ -68,8 +90,7 @@
     .header_conten-mess {
         margin-right: 0;
     }
-    
-     .container_header-h1 {
+    .container_header-h1 {
         font-size: 24px;
     }
 

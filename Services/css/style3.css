@@ -211,6 +211,7 @@ cursor: pointer;
 
 .container_buy {
     margin: 78px 0 136px 0;
+    gap: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -218,10 +219,9 @@ cursor: pointer;
 .container_buy-item {
   
     padding: 46px 30px;
-    gap: 10px;
 
-    width: 290px;
-    height: 542px;
+    width: 100%;
+    min-height: 542px;
 
     background: #FFFFFF;
     box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);

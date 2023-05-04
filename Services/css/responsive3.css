@@ -5,6 +5,16 @@
     
 }
 
+/* Taplet */
+
+@media(min-width:740px) and (max-width:1023px) {
+    .grid {
+        padding: 0 20px;
+    }
+
+   
+}
+
 /* mobele */
 
 @media(max-width:739px) {
@@ -68,7 +78,8 @@
     .header_conten-mess {
         margin-right: 0;
     }
-     .container_header-h1 {
+
+    .container_header-h1 {
         font-size: 24px;
     }
 
@@ -98,6 +109,7 @@
 
     .container_buy-item {
         margin-bottom: 50px;
+        width: 75%;
     }
 
 
